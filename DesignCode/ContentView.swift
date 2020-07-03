@@ -43,7 +43,7 @@ struct ContentView: View {
         .blendMode(.hardLight)
         .animation(.easeInOut(duration: 0.5))
       
-      BackCardView()
+      BackCardView()
         .frame(width: 340, height: 220)
         .background(show ? Color("card4") : Color("card3"))
         .cornerRadius(20)
