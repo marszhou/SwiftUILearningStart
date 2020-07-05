@@ -18,10 +18,12 @@
 		759D3F3E24B0D55C005F54EB /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759D3F3D24B0D55C005F54EB /* HomeView.swift */; };
 		75A65F1C24B1D1A300591189 /* UpdateList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A65F1B24B1D1A300591189 /* UpdateList.swift */; };
 		75A65F1E24B1DA5800591189 /* UpdateDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A65F1D24B1DA5800591189 /* UpdateDetail.swift */; };
+		75A65F2024B1FD4900591189 /* UpdateStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A65F1F24B1FD4900591189 /* UpdateStore.swift */; };
+		75A65F2224B2068400591189 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A65F2124B2068400591189 /* TabBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		759D3F2224AD81A0005F54EB /* DesignCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		759D3F2224AD81A0005F54EB /* Design+Code.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Design+Code.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		759D3F2524AD81A0005F54EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		759D3F2724AD81A0005F54EB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		759D3F2924AD81A0005F54EB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -34,6 +36,8 @@
 		759D3F3D24B0D55C005F54EB /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		75A65F1B24B1D1A300591189 /* UpdateList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateList.swift; sourceTree = "<group>"; };
 		75A65F1D24B1DA5800591189 /* UpdateDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateDetail.swift; sourceTree = "<group>"; };
+		75A65F1F24B1FD4900591189 /* UpdateStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateStore.swift; sourceTree = "<group>"; };
+		75A65F2124B2068400591189 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +62,7 @@
 		759D3F2324AD81A0005F54EB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				759D3F2224AD81A0005F54EB /* DesignCode.app */,
+				759D3F2224AD81A0005F54EB /* Design+Code.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -74,6 +78,8 @@
 				759D3F3924B080DA005F54EB /* MenuView.swift */,
 				75A65F1B24B1D1A300591189 /* UpdateList.swift */,
 				75A65F1D24B1DA5800591189 /* UpdateDetail.swift */,
+				75A65F1F24B1FD4900591189 /* UpdateStore.swift */,
+				75A65F2124B2068400591189 /* TabBar.swift */,
 				759D3F2B24AD81A1005F54EB /* Assets.xcassets */,
 				759D3F3024AD81A1005F54EB /* LaunchScreen.storyboard */,
 				759D3F3324AD81A1005F54EB /* Info.plist */,
@@ -107,7 +113,7 @@
 			);
 			name = DesignCode;
 			productName = DesignCode;
-			productReference = 759D3F2224AD81A0005F54EB /* DesignCode.app */;
+			productReference = 759D3F2224AD81A0005F54EB /* Design+Code.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -162,6 +168,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				759D3F2624AD81A0005F54EB /* AppDelegate.swift in Sources */,
+				75A65F2024B1FD4900591189 /* UpdateStore.swift in Sources */,
 				75A65F1C24B1D1A300591189 /* UpdateList.swift in Sources */,
 				759D3F3A24B080DA005F54EB /* MenuView.swift in Sources */,
 				75A65F1E24B1DA5800591189 /* UpdateDetail.swift in Sources */,
@@ -169,6 +176,7 @@
 				759D3F3E24B0D55C005F54EB /* HomeView.swift in Sources */,
 				759D3F2824AD81A0005F54EB /* SceneDelegate.swift in Sources */,
 				759D3F2A24AD81A0005F54EB /* ContentView.swift in Sources */,
+				75A65F2224B2068400591189 /* TabBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,7 +322,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = cruelyouth.com.DesignCode;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Design+Code";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -334,7 +342,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = cruelyouth.com.DesignCode;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Design+Code";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
